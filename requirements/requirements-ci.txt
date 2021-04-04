@@ -340,7 +340,7 @@ markupsafe==1.1.1
     # via
     #   -r requirements-dev.txt
     #   jinja2
-marshmallow-dataclass==8.0.0
+marshmallow-dataclass==8.3.2
     # via -r requirements-dev.txt
 marshmallow-enum==1.5.1
     # via -r requirements-dev.txt
