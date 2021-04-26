@@ -155,7 +155,7 @@ marshmallow==3.11.1
     #   marshmallow-polyfield
 matrix-client==0.3.2
     # via -r requirements.in
-mirakuru==2.1.2
+mirakuru==2.3.0
     # via -r requirements.in
 multiaddr==0.0.9
     # via ipfshttpclient
