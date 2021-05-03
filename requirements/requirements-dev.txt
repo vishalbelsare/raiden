@@ -56,7 +56,7 @@ bitarray==1.2.1
     # via
     #   -r requirements.txt
     #   eth-account
-black==21.4b0
+black==21.4b2
     # via -r requirements-dev.in
 bleach==3.3.0
     # via
@@ -266,7 +266,7 @@ ipfshttpclient==0.7.0a1
     #   web3
 ipython-genutils==0.2.0
     # via traitlets
-ipython==7.22.0
+ipython==7.23.0
     # via -r requirements-dev.in
 isort==5.8.0
     # via
@@ -310,6 +310,8 @@ marshmallow==3.11.1
     #   marshmallow-dataclass
     #   marshmallow-enum
     #   marshmallow-polyfield
+matplotlib-inline==0.1.2
+    # via ipython
 matrix-client==0.3.2
     # via -r requirements.txt
 matrix-synapse==1.29.0
@@ -358,7 +360,7 @@ parsimonious==0.8.1
     #   eth-abi
 parso==0.7.0
     # via jedi
-pathspec==0.8.0
+pathspec==0.8.1
     # via black
 pdbpp==0.10.2
     # via -r requirements-dev.in
@@ -569,7 +571,9 @@ toolz==0.9.0
     #   -r requirements.txt
     #   cytoolz
 traitlets==4.3.2
-    # via ipython
+    # via
+    #   ipython
+    #   matplotlib-inline
 treq==21.1.0
     # via matrix-synapse
 twisted[tls]==21.2.0
@@ -584,7 +588,7 @@ typeguard==2.11.1
     # via
     #   -r requirements.txt
     #   marshmallow-dataclass
-typing-extensions==3.7.4.3
+typing-extensions==3.10.0.0
     # via
     #   -r requirements.txt
     #   matrix-synapse
@@ -600,7 +604,7 @@ unpaddedbase64==1.1.0
     # via
     #   matrix-synapse
     #   signedjson
-urllib3==1.25.3
+urllib3==1.25.8
     # via
     #   -r requirements.txt
     #   requests
