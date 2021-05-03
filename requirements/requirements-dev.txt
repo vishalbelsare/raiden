@@ -56,7 +56,7 @@ bitarray==1.2.1
     # via
     #   -r requirements.txt
     #   eth-account
-black==21.4b0
+black==21.4b2
     # via -r requirements-dev.in
 bleach==3.3.0
     # via
@@ -183,7 +183,7 @@ eth-utils==1.10.0
     #   web3
 execnet==1.6.0
     # via pytest-xdist
-faker==8.1.1
+faker==8.1.2
     # via -r requirements-dev.in
 fancycompleter==0.8
     # via pdbpp
@@ -358,7 +358,7 @@ parsimonious==0.8.1
     #   eth-abi
 parso==0.7.0
     # via jedi
-pathspec==0.8.0
+pathspec==0.8.1
     # via black
 pdbpp==0.10.2
     # via -r requirements-dev.in
@@ -584,7 +584,7 @@ typeguard==2.11.1
     # via
     #   -r requirements.txt
     #   marshmallow-dataclass
-typing-extensions==3.7.4.3
+typing-extensions==3.10.0.0
     # via
     #   -r requirements.txt
     #   matrix-synapse
@@ -600,7 +600,7 @@ unpaddedbase64==1.1.0
     # via
     #   matrix-synapse
     #   signedjson
-urllib3==1.25.3
+urllib3==1.25.8
     # via
     #   -r requirements.txt
     #   requests
