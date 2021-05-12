@@ -83,7 +83,7 @@ bleach==3.3.0
     #   readme-renderer
 bump2version==1.0.1
     # via -r requirements-dev.txt
-cachetools==4.2.1
+cachetools==4.2.2
     # via -r requirements-dev.txt
 canonicaljson==1.4.0
     # via
@@ -132,10 +132,11 @@ crc32c==2.2
     # via
     #   -r requirements-dev.txt
     #   aiortc
-cryptography==3.3.2
+cryptography==3.4.7
     # via
     #   -r requirements-dev.txt
     #   aiortc
+    #   matrix-synapse
     #   pyopenssl
     #   service-identity
 cytoolz==0.10.1
@@ -302,7 +303,7 @@ ipython-genutils==0.2.0
     # via
     #   -r requirements-dev.txt
     #   traitlets
-ipython==7.22.0
+ipython==7.23.1
     # via -r requirements-dev.txt
 isort==5.8.0
     # via
@@ -352,9 +353,13 @@ marshmallow==3.11.1
     #   marshmallow-dataclass
     #   marshmallow-enum
     #   marshmallow-polyfield
+matplotlib-inline==0.1.2
+    # via
+    #   -r requirements-dev.txt
+    #   ipython
 matrix-client==0.3.2
     # via -r requirements-dev.txt
-matrix-synapse==1.29.0
+matrix-synapse==1.33.0
     # via -r requirements-dev.txt
 mccabe==0.6.1
     # via
@@ -462,7 +467,7 @@ py-solc-x==1.1.0
     # via
     #   -r requirements-dev.txt
     #   raiden-contracts
-py-spy==0.3.5
+py-spy==0.3.6
     # via -r requirements-dev.txt
 py==1.10.0
     # via
@@ -551,7 +556,7 @@ pytest-select==0.1.2
     # via -r requirements-dev.txt
 pytest-xdist==2.2.1
     # via -r requirements-dev.txt
-pytest==6.2.3
+pytest==6.2.4
     # via
     #   -r requirements-dev.txt
     #   pytest-forked
@@ -631,7 +636,6 @@ six==1.15.0
     #   automat
     #   bcrypt
     #   bleach
-    #   cryptography
     #   flake8-tuple
     #   flask-cors
     #   flask-restful
@@ -675,6 +679,7 @@ traitlets==4.3.2
     # via
     #   -r requirements-dev.txt
     #   ipython
+    #   matplotlib-inline
 treq==21.1.0
     # via
     #   -r requirements-dev.txt
