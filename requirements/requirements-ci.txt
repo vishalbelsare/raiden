@@ -226,7 +226,7 @@ flake8-comprehensions==3.5.0
     # via -r requirements-dev.txt
 flake8-tuple==0.4.1
     # via -r requirements-dev.txt
-flake8==3.9.1
+flake8==3.9.2
     # via
     #   -r requirements-dev.txt
     #   flake8-bugbear
@@ -349,7 +349,7 @@ marshmallow-enum==1.5.1
     # via -r requirements-dev.txt
 marshmallow-polyfield==5.10
     # via -r requirements-dev.txt
-marshmallow==3.11.1
+marshmallow==3.12.1
     # via
     #   -r requirements-dev.txt
     #   marshmallow-dataclass
@@ -394,7 +394,7 @@ netaddr==0.7.19
     #   -r requirements-dev.txt
     #   matrix-synapse
     #   multiaddr
-netifaces==0.10.9
+netifaces==0.11.0
     # via
     #   -r requirements-dev.txt
     #   aioice
@@ -435,7 +435,7 @@ pickleshare==0.7.5
     # via
     #   -r requirements-dev.txt
     #   ipython
-pillow==8.1.1
+pillow==8.2.0
     # via
     #   -r requirements-dev.txt
     #   matrix-synapse
@@ -603,7 +603,7 @@ requests==2.25.1
     #   responses
     #   treq
     #   web3
-responses==0.10.15
+responses==0.13.3
     # via -r requirements-dev.txt
 rlp==2.0.1
     # via
@@ -720,6 +720,7 @@ urllib3==1.26.5
     # via
     #   -r requirements-dev.txt
     #   requests
+    #   responses
 varint==1.0.2
     # via
     #   -r requirements-dev.txt
