@@ -76,7 +76,7 @@ bitarray==1.2.1
     # via
     #   -r requirements-dev.txt
     #   eth-account
-black==21.4b2
+black==21.5b2
     # via -r requirements-dev.txt
 bleach==3.3.0
     # via
@@ -212,7 +212,7 @@ execnet==1.6.0
     # via
     #   -r requirements-dev.txt
     #   pytest-xdist
-faker==8.4.0
+faker==8.6.0
     # via -r requirements-dev.txt
 fancycompleter==0.8
     # via
@@ -385,7 +385,7 @@ mypy-extensions==0.4.3
     #   mypy
     #   raiden-contracts
     #   typing-inspect
-mypy==0.812
+mypy==0.901
     # via -r requirements-dev.txt
 nest-asyncio==1.5.1
     # via -r requirements-dev.txt
@@ -670,6 +670,7 @@ toml==0.10.2
     # via
     #   -r requirements-dev.txt
     #   black
+    #   mypy
     #   pep517
     #   pylint
     #   pytest
@@ -692,9 +693,7 @@ twisted[tls]==21.2.0
     #   matrix-synapse
     #   treq
 typed-ast==1.4.3
-    # via
-    #   -r requirements-dev.txt
-    #   mypy
+    # via -r requirements-dev.txt
 typeguard==2.11.1
     # via
     #   -r requirements-dev.txt
