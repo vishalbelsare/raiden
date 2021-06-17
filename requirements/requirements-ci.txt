@@ -572,7 +572,7 @@ pytest-random==0.2
     # via -r requirements-dev.txt
 pytest-select==0.1.2
     # via -r requirements-dev.txt
-pytest-xdist==2.2.1
+pytest-xdist==2.3.0
     # via -r requirements-dev.txt
 pytest==6.2.4
     # via
@@ -734,7 +734,7 @@ types-markupsafe==1.1.1
     #   types-jinja2
 types-pkg-resources==0.1.2
     # via -r requirements-dev.txt
-types-pyyaml==5.4.1
+types-pyyaml==5.4.2
     # via -r requirements-dev.txt
 types-requests==0.1.11
     # via -r requirements-dev.txt
