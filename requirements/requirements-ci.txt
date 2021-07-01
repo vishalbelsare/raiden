@@ -379,7 +379,7 @@ mccabe==0.6.1
     #   -r requirements-dev.txt
     #   flake8
     #   pylint
-mirakuru==2.1.2
+mirakuru==2.4.1
     # via -r requirements-dev.txt
 msgpack==0.6.1
     # via

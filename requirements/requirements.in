@@ -21,7 +21,7 @@ marshmallow-polyfield
 marshmallow
 marshmallow_enum
 matrix-client==0.3.2
-mirakuru==2.1.2
+mirakuru==2.4.1
 netifaces
 psutil
 pylibsrtp>=0.6.8
